@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+changelog=CHANGELOG.md
+cat mix.exs | sed -n "/version:.*\$/s/^.*\"\(.*\)\".*/\1/p" > version
+echo "Found version: $(cat version) in mix.exs"
+echo "Verifying ${changelog}"
+grep -f version $changelog
+
+if [[ $? -eq 0 ]]
+then
+  echo "${changelog} is up to date with the version in mix.exs"
+else
+  echo "Could not find details for $(cat version) in ${changelog}"
+  exit 1
+fi
