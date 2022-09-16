@@ -24,3 +24,6 @@ vigil-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+# Never include DS Store files
+\.DS_Store
