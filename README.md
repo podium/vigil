@@ -4,7 +4,7 @@ Vigil disallows introspection queries on your GraphQL API and prevents data exfi
 
 ## Installation
 
-This package can be installed from hex by adding `vigil` to your list of dependencies in `mix.exs`:
+This package can be installed [from hex](https://hex.pm/packages/vigil/0.4.4) by adding `vigil` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
