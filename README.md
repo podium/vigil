@@ -1,7 +1,8 @@
-####
-This project is not unsupported and we will not contribute as we don t use it or depend on it at Podium and do not have the resources to maintain it. 
+> [!WARNING - End-of-Life - 2024-12-20]
+> This project is not unsupported and we will not contribute as we don t use it or depend on it at Podium and do not have the resources to maintain it.
+> 
+> Feel free to fork it. IF someone want the ownership of the package, please contact package owner https://hex.pm/users/kingsfoil
 
-Feel free to fork it. IF someone want the ownership of the package, please contact package owner https://hex.pm/users/kingsfoil
 ####
 
 # Vigil
