@@ -1,3 +1,9 @@
+####
+This project is not unsupported and we will not contribute as we don t use it or depend on it at Podium and do not have the resources to maintain it. 
+
+Feel free to fork it. IF someone want the ownership of the package, please contact package owner https://hex.pm/users/kingsfoil
+####
+
 # Vigil
 
 Vigil disallows introspection queries on your GraphQL API and prevents data exfiltration via GraphQL error messages.
